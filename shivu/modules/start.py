@@ -37,10 +37,10 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***Hey there! {update.effective_user.first_name} 🌻***
               
-***i Am Collect 'Em All Bot.. Add Me in You're Group And I will send Random Characters in group after every 100 messages and who guessed that character's name Correct.. I will add That Character in That user's Collection.. Tap on help Button To See All Commands***
+***i Am Grab 'Em All Bot.. Add Me in You're Group And I will send Random Characters in group after every 100 messages and who guessed that character's name Correct.. I will add That Character in That user's Collection.. Tap on help Button To See All Commands***
                """
         keyboard = [
-            [InlineKeyboardButton("Add Me", url=f'http://t.me/Collect_emAll_Bot?startgroup=new')],
+            [InlineKeyboardButton("Add Me", url=f'http://t.me/grab_em_all_robot?startgroup=new')],
             [InlineKeyboardButton("Help", callback_data='help'),
              InlineKeyboardButton("Support", url=f'https://t.me/{SUPPORT_CHAT}')],
             [InlineKeyboardButton("Updates", url=f'https://t.me/{UPDATE_CHAT}')],
